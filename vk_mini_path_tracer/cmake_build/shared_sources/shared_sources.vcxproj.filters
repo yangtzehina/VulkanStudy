@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\shared_sources\CMakeFiles\shared_sources.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvh\appwindowprofiler.cpp">
+      <Filter>nvh</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvh\bitarray.cpp">
+      <Filter>nvh</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvh\cameramanipulator.cpp">
+      <Filter>nvh</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvh\filemapping.cpp">
+      <Filter>nvh</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvh\gltfscene.cpp">
+      <Filter>nvh</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvh\nvprint.cpp">
+      <Filter>nvh</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvh\parametertools.cpp">
+      <Filter>nvh</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvh\profiler.cpp">
+      <Filter>nvh</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvh\shaderfilemanager.cpp">
+      <Filter>nvh</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\noise\noise1234.cpp">
+      <Filter>noise</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\fileformats\cadscenefile.cpp">
+      <Filter>fileformats</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\fileformats\cgltf.cpp">
+      <Filter>fileformats</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\fileformats\nv_dds.cpp">
+      <Filter>fileformats</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvpwindow.cpp">
+      <Filter>nvp</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvpsystem.cpp">
+      <Filter>nvp</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvpsystem_win32.cpp">
+      <Filter>nvp</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\allocator_dma_vkgl.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\appwindowprofiler_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\commands_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\context_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\debug_util_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\descriptorsets_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\error_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\extensions_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\gizmos_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\images_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\memorymanagement_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\memorymanagement_vkgl.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\pipeline_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\profiler_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\renderpasses_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\samplers_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\shadermodulemanager_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\swapchain_vk.cpp">
+      <Filter>nvvk</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvh\alignment.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvh\appwindowcamerainertia.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvh\appwindowprofiler.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvh\bitarray.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvh\cameracontrol.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvh\camerainertia.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvh\cameramanipulator.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvh\filemapping.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvh\fileoperations.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvh\geometry.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvh\gltfscene.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvh\inputparser.h">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvh\misc.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvh\nsightevents.h">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvh\nvprint.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvh\parametertools.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvh\profiler.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvh\radixsort.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvh\shaderfilemanager.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvh\timesampler.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvh\trangeallocator.hpp">
+      <Filter>nvh</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvmath\nvmath.h">
+      <Filter>nvmath</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvmath\nvmath.inl">
+      <Filter>nvmath</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvmath\nvmath_glsltypes.h">
+      <Filter>nvmath</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvmath\nvmath_hlsltypes.h">
+      <Filter>nvmath</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvmath\nvmath_types.h">
+      <Filter>nvmath</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\noise\mersennetwister1.h">
+      <Filter>noise</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\noise\noise1234.h">
+      <Filter>noise</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\fileformats\bmp.hpp">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\fileformats\cadscenefile.h">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\fileformats\cgltf.h">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\fileformats\json.hpp">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\fileformats\nv_dds.h">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\fileformats\stb_image.h">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\fileformats\stb_image_write.h">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\fileformats\tiny_gltf.h">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\fileformats\tiny_gltf_freeimage.h">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\fileformats\tiny_obj_loader.h">
+      <Filter>fileformats</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvpwindow.hpp">
+      <Filter>nvp</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvpsystem.hpp">
+      <Filter>nvp</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\allocator_dedicated_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\allocator_dma_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\allocator_dma_vkgl.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\allocator_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\allocator_vma_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\appbase_vkpp.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\appwindowprofiler_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\buffers_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\commands_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\context_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\debug_util_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\descriptorsets_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\error_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\extensions_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\gizmos_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\images_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\memorymanagement_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\memorymanagement_vkgl.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\pipeline_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\profiler_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\raytraceKHR_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\raytraceNV_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\renderpasses_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\samplers_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\shadermodulemanager_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\shaders_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\structs_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\shared_sources\nvvk\swapchain_vk.hpp">
+      <Filter>nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VulkanSDK\1.2.162.0\Include\vulkan\vulkan.h">
+      <Filter>Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\shared_sources\CMakeFiles\shared_sources.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\shared_sources\CMakeFiles\shared_sources.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\shared_sources\CMakeFiles\shared_sources.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\shared_sources\CMakeFiles\shared_sources.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\UnityGraphics\vulkan\shared_sources\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{7A3FFE52-4C2C-36E7-9C7F-E1642709F520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{96BF58D7-28C9-39ED-9541-0270AE2A994D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vulkan">
+      <UniqueIdentifier>{8A75B70C-44B8-3742-97D5-8FADF92EAB83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fileformats">
+      <UniqueIdentifier>{5461BB72-82A6-386B-9D9A-2D9AE2BDE334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="noise">
+      <UniqueIdentifier>{D0276F43-F901-3380-9B4F-7076A68BD648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nvh">
+      <UniqueIdentifier>{04FBC8E6-1EBF-3537-A904-2920F5199C65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nvmath">
+      <UniqueIdentifier>{21C76B88-6678-3CE7-8B0C-6197EC348447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nvp">
+      <UniqueIdentifier>{8B2D7818-C618-3763-8E35-FB87A1F6D5A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nvvk">
+      <UniqueIdentifier>{19FA3B84-56CC-3B2A-9940-4DEFA5622E5A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

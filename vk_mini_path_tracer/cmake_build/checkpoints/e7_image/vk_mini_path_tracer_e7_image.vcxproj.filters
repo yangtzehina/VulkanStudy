@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\checkpoints\e7_image\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\checkpoints\e7_image\common.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\checkpoints\e7_image\shaders\raytrace.comp.glsl">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\checkpoints\e7_image\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{172EA786-C97E-3A1E-B61E-E8CC61303D92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{96BF58D7-28C9-39ED-9541-0270AE2A994D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
