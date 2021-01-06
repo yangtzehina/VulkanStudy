@@ -1,8 +1,2 @@
 ﻿  main.cpp
-shared_sources_vk.lib(context_vk.obj) : warning LNK4099: 未找到 PDB“shared_sources.pdb”(使用“shared_sources_vk.lib(context_vk.obj)”或在“G:\UnityGraphics\vulkan\VulkanStudy\bin_x64\Debug\shared_sources.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-shared_sources_vk.lib(extensions_vk.obj) : warning LNK4099: 未找到 PDB“shared_sources.pdb”(使用“shared_sources_vk.lib(extensions_vk.obj)”或在“G:\UnityGraphics\vulkan\VulkanStudy\bin_x64\Debug\shared_sources.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-shared_sources_vk.lib(nvprint.obj) : warning LNK4099: 未找到 PDB“shared_sources.pdb”(使用“shared_sources_vk.lib(nvprint.obj)”或在“G:\UnityGraphics\vulkan\VulkanStudy\bin_x64\Debug\shared_sources.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-shared_sources_vk.lib(error_vk.obj) : warning LNK4099: 未找到 PDB“shared_sources.pdb”(使用“shared_sources_vk.lib(error_vk.obj)”或在“G:\UnityGraphics\vulkan\VulkanStudy\bin_x64\Debug\shared_sources.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-shared_sources_vk.lib(debug_util_vk.obj) : warning LNK4099: 未找到 PDB“shared_sources.pdb”(使用“shared_sources_vk.lib(debug_util_vk.obj)”或在“G:\UnityGraphics\vulkan\VulkanStudy\bin_x64\Debug\shared_sources.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-shared_sources_vk.lib(cmake_pch.obj) : warning LNK4099: 未找到 PDB“shared_sources.pdb”(使用“shared_sources_vk.lib(cmake_pch.obj)”或在“G:\UnityGraphics\vulkan\VulkanStudy\bin_x64\Debug\shared_sources.pdb”中寻找)；正在链接对象，如同没有调试信息一样
   vk_mini_path_tracer__edit.vcxproj -> G:\UnityGraphics\vulkan\VulkanStudy\bin_x64\Debug\vk_mini_path_tracer__edit.exe
