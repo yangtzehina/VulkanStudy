@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\CMakeFiles\3a6207a03187acb025c297c45d2800ed\generate.stamp.rule">
+    <CustomBuild Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\CMakeFiles\3f4c044347740f66e0a60a22e2bc56c5\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{C2E63FF7-1802-31BC-B21F-263B4DFFECCC}</UniqueIdentifier>
+      <UniqueIdentifier>{45120F03-0314-3159-86A2-65E215616E57}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

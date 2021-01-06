@@ -1,8 +1,8 @@
-# Install script for directory: G:/UnityGraphics/vulkan/shared_sources
+# Install script for directory: G:/UnityGraphics/vulkan/VulkanStudy/shared_sources
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "G:/UnityGraphics/vulkan/vk_mini_path_tracer/../_install")
+  set(CMAKE_INSTALL_PREFIX "G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/../_install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

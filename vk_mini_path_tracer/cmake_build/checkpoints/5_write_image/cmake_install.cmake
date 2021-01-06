@@ -1,8 +1,8 @@
-# Install script for directory: G:/UnityGraphics/vulkan/vk_mini_path_tracer/checkpoints/5_write_image
+# Install script for directory: G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/checkpoints/5_write_image
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "G:/UnityGraphics/vulkan/vk_mini_path_tracer/../_install")
+  set(CMAKE_INSTALL_PREFIX "G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/../_install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,25 +34,25 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin_x64" TYPE EXECUTABLE FILES "G:/UnityGraphics/vulkan/bin_x64/Release/vk_mini_path_tracer_5_write_image.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin_x64" TYPE EXECUTABLE FILES "G:/UnityGraphics/vulkan/VulkanStudy/bin_x64/Release/vk_mini_path_tracer_5_write_image.exe")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin_x64_debug" TYPE EXECUTABLE FILES "G:/UnityGraphics/vulkan/bin_x64/Debug/vk_mini_path_tracer_5_write_image.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin_x64_debug" TYPE EXECUTABLE FILES "G:/UnityGraphics/vulkan/VulkanStudy/bin_x64/Debug/vk_mini_path_tracer_5_write_image.exe")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin_x64/vk_mini_path_tracer_5_write_image" TYPE DIRECTORY FILES "G:/UnityGraphics/vulkan/vk_mini_path_tracer/checkpoints/5_write_image/../../scenes")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin_x64/vk_mini_path_tracer_5_write_image" TYPE DIRECTORY FILES "G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/checkpoints/5_write_image/../../scenes")
   endif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin_x64_debug/vk_mini_path_tracer_5_write_image" TYPE DIRECTORY FILES "G:/UnityGraphics/vulkan/vk_mini_path_tracer/checkpoints/5_write_image/../../scenes")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin_x64_debug/vk_mini_path_tracer_5_write_image" TYPE DIRECTORY FILES "G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/checkpoints/5_write_image/../../scenes")
   endif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
 endif()
 

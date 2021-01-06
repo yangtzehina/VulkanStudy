@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\CMakeFiles\a26a6bc78b9c1c04394e4ad9c9756067\INSTALL_force.rule">
+    <CustomBuild Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\CMakeFiles\8656f10b01b1ee5ea312176c79686094\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{C2E63FF7-1802-31BC-B21F-263B4DFFECCC}</UniqueIdentifier>
+      <UniqueIdentifier>{45120F03-0314-3159-86A2-65E215616E57}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

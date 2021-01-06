@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B4A892DA-D10D-380E-A3D3-837F24C6D3D2}</ProjectGuid>
+    <ProjectGuid>{BA45D326-D258-3E53-9CDB-F581A06F28E9}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -66,7 +66,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>G:\UnityGraphics\vulkan\vk_mini_path_tracer\..\shared_sources;G:\UnityGraphics\vulkan\vk_mini_path_tracer\..\shared_external;G:\UnityGraphics\vulkan\vk_mini_path_tracer\..\shared_external\glfw3\include;C:\VulkanSDK\1.2.162.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\..\shared_sources;G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\..\shared_external;G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\..\shared_external\glfw3\include;C:\VulkanSDK\1.2.162.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -76,7 +76,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>G:\UnityGraphics\vulkan\vk_mini_path_tracer\..\shared_sources;G:\UnityGraphics\vulkan\vk_mini_path_tracer\..\shared_external;G:\UnityGraphics\vulkan\vk_mini_path_tracer\..\shared_external\glfw3\include;C:\VulkanSDK\1.2.162.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\..\shared_sources;G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\..\shared_external;G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\..\shared_external\glfw3\include;C:\VulkanSDK\1.2.162.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -86,7 +86,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>G:\UnityGraphics\vulkan\vk_mini_path_tracer\..\shared_sources;G:\UnityGraphics\vulkan\vk_mini_path_tracer\..\shared_external;G:\UnityGraphics\vulkan\vk_mini_path_tracer\..\shared_external\glfw3\include;C:\VulkanSDK\1.2.162.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\..\shared_sources;G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\..\shared_external;G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\..\shared_external\glfw3\include;C:\VulkanSDK\1.2.162.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -96,7 +96,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>G:\UnityGraphics\vulkan\vk_mini_path_tracer\..\shared_sources;G:\UnityGraphics\vulkan\vk_mini_path_tracer\..\shared_external;G:\UnityGraphics\vulkan\vk_mini_path_tracer\..\shared_external\glfw3\include;C:\VulkanSDK\1.2.162.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\..\shared_sources;G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\..\shared_external;G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\..\shared_external\glfw3\include;C:\VulkanSDK\1.2.162.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -105,11 +105,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\CMakeLists.txt">
+    <CustomBuild Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\CMakeLists.txt">
       <StdOutEncoding>UTF-8</StdOutEncoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule G:/UnityGraphics/vulkan/vk_mini_path_tracer/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-E:\CommonSoftware\Cmake\bin\cmake.exe -SG:/UnityGraphics/vulkan/vk_mini_path_tracer -BG:/UnityGraphics/vulkan/vk_mini_path_tracer/cmake_build --check-stamp-file G:/UnityGraphics/vulkan/vk_mini_path_tracer/cmake_build/CMakeFiles/generate.stamp
+E:\CommonSoftware\Cmake\bin\cmake.exe -SG:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer -BG:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build --check-stamp-file G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -117,12 +117,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeCInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\FindPackageMessage.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;G:\UnityGraphics\vulkan\shared_sources\CMakeLists_include.txt;G:\UnityGraphics\vulkan\shared_sources\cmake\FindVulkanSDK.cmake;G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeCCompiler.cmake;G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeCXXCompiler.cmake;G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeRCCompiler.cmake;G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeCInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\FindPackageMessage.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;G:\UnityGraphics\vulkan\VulkanStudy\shared_sources\CMakeLists_include.txt;G:\UnityGraphics\vulkan\VulkanStudy\shared_sources\cmake\FindVulkanSDK.cmake;G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeCCompiler.cmake;G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeCXXCompiler.cmake;G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeRCCompiler.cmake;G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule G:/UnityGraphics/vulkan/vk_mini_path_tracer/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-E:\CommonSoftware\Cmake\bin\cmake.exe -SG:/UnityGraphics/vulkan/vk_mini_path_tracer -BG:/UnityGraphics/vulkan/vk_mini_path_tracer/cmake_build --check-stamp-file G:/UnityGraphics/vulkan/vk_mini_path_tracer/cmake_build/CMakeFiles/generate.stamp
+E:\CommonSoftware\Cmake\bin\cmake.exe -SG:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer -BG:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build --check-stamp-file G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -130,12 +130,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeCInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\FindPackageMessage.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;G:\UnityGraphics\vulkan\shared_sources\CMakeLists_include.txt;G:\UnityGraphics\vulkan\shared_sources\cmake\FindVulkanSDK.cmake;G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeCCompiler.cmake;G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeCXXCompiler.cmake;G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeRCCompiler.cmake;G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeCInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\FindPackageMessage.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;G:\UnityGraphics\vulkan\VulkanStudy\shared_sources\CMakeLists_include.txt;G:\UnityGraphics\vulkan\VulkanStudy\shared_sources\cmake\FindVulkanSDK.cmake;G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeCCompiler.cmake;G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeCXXCompiler.cmake;G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeRCCompiler.cmake;G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule G:/UnityGraphics/vulkan/vk_mini_path_tracer/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-E:\CommonSoftware\Cmake\bin\cmake.exe -SG:/UnityGraphics/vulkan/vk_mini_path_tracer -BG:/UnityGraphics/vulkan/vk_mini_path_tracer/cmake_build --check-stamp-file G:/UnityGraphics/vulkan/vk_mini_path_tracer/cmake_build/CMakeFiles/generate.stamp
+E:\CommonSoftware\Cmake\bin\cmake.exe -SG:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer -BG:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build --check-stamp-file G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -143,12 +143,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeCInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\FindPackageMessage.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;G:\UnityGraphics\vulkan\shared_sources\CMakeLists_include.txt;G:\UnityGraphics\vulkan\shared_sources\cmake\FindVulkanSDK.cmake;G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeCCompiler.cmake;G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeCXXCompiler.cmake;G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeRCCompiler.cmake;G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeCInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\FindPackageMessage.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;G:\UnityGraphics\vulkan\VulkanStudy\shared_sources\CMakeLists_include.txt;G:\UnityGraphics\vulkan\VulkanStudy\shared_sources\cmake\FindVulkanSDK.cmake;G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeCCompiler.cmake;G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeCXXCompiler.cmake;G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeRCCompiler.cmake;G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule G:/UnityGraphics/vulkan/vk_mini_path_tracer/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-E:\CommonSoftware\Cmake\bin\cmake.exe -SG:/UnityGraphics/vulkan/vk_mini_path_tracer -BG:/UnityGraphics/vulkan/vk_mini_path_tracer/cmake_build --check-stamp-file G:/UnityGraphics/vulkan/vk_mini_path_tracer/cmake_build/CMakeFiles/generate.stamp
+E:\CommonSoftware\Cmake\bin\cmake.exe -SG:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer -BG:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build --check-stamp-file G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -156,126 +156,126 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeCInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\FindPackageMessage.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;G:\UnityGraphics\vulkan\shared_sources\CMakeLists_include.txt;G:\UnityGraphics\vulkan\shared_sources\cmake\FindVulkanSDK.cmake;G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeCCompiler.cmake;G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeCXXCompiler.cmake;G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeRCCompiler.cmake;G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeCInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\FindPackageMessage.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\Windows.cmake;E:\CommonSoftware\Cmake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;G:\UnityGraphics\vulkan\VulkanStudy\shared_sources\CMakeLists_include.txt;G:\UnityGraphics\vulkan\VulkanStudy\shared_sources\cmake\FindVulkanSDK.cmake;G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeCCompiler.cmake;G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeCXXCompiler.cmake;G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeRCCompiler.cmake;G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\CMakeFiles\3.19.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\ZERO_CHECK.vcxproj">
-      <Project>{9B9B61D9-CCDC-37DE-B607-93B48C61EB1E}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\ZERO_CHECK.vcxproj">
+      <Project>{38FDBEC7-2C58-39A1-BD20-547D2D1572C6}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\shared_sources\shared_sources.vcxproj">
-      <Project>{7A7533D8-19E1-3731-9046-CA56ED54C778}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\shared_sources\shared_sources.vcxproj">
+      <Project>{7A1A344F-1F8F-3F6F-BD57-BF6740A4DF80}</Project>
       <Name>shared_sources</Name>
     </ProjectReference>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\vk_mini_path_tracer\vk_mini_path_tracer.vcxproj">
-      <Project>{E31F130E-39A8-3312-BDDA-BB7D624A687F}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\vk_mini_path_tracer\vk_mini_path_tracer.vcxproj">
+      <Project>{4F3994F7-4348-334C-BEE5-E6497B792003}</Project>
       <Name>vk_mini_path_tracer</Name>
     </ProjectReference>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\checkpoints\10_mesh_data\vk_mini_path_tracer_10_mesh_data.vcxproj">
-      <Project>{7E75B4C3-2B18-3F99-A907-E44A761BA8AE}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\checkpoints\10_mesh_data\vk_mini_path_tracer_10_mesh_data.vcxproj">
+      <Project>{D11C54C6-4112-372D-82AF-363E8650D6B7}</Project>
       <Name>vk_mini_path_tracer_10_mesh_data</Name>
     </ProjectReference>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\checkpoints\11_specular\vk_mini_path_tracer_11_specular.vcxproj">
-      <Project>{033B4DB8-F1FA-329A-8196-0E1BCDDA9160}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\checkpoints\11_specular\vk_mini_path_tracer_11_specular.vcxproj">
+      <Project>{40030B40-004B-3883-827F-FB358F6843C1}</Project>
       <Name>vk_mini_path_tracer_11_specular</Name>
     </ProjectReference>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\checkpoints\12_antialiasing\vk_mini_path_tracer_12_antialiasing.vcxproj">
-      <Project>{12ABF32B-0E6C-3329-A68C-9B592221CFDC}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\checkpoints\12_antialiasing\vk_mini_path_tracer_12_antialiasing.vcxproj">
+      <Project>{96C97656-9AA5-3D84-9A99-91E6C3BE1A97}</Project>
       <Name>vk_mini_path_tracer_12_antialiasing</Name>
     </ProjectReference>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\checkpoints\1_hello_vulkan\vk_mini_path_tracer_1_hello_vulkan.vcxproj">
-      <Project>{EA688A4A-61D7-3ED3-9BE0-C1EA588BEEB7}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\checkpoints\1_hello_vulkan\vk_mini_path_tracer_1_hello_vulkan.vcxproj">
+      <Project>{3472EAD5-6E6F-3A2C-B5C9-41684B9D8897}</Project>
       <Name>vk_mini_path_tracer_1_hello_vulkan</Name>
     </ProjectReference>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\checkpoints\2_extensions\vk_mini_path_tracer_2_extensions.vcxproj">
-      <Project>{5596E680-089A-35C5-B7CB-81A021C74295}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\checkpoints\2_extensions\vk_mini_path_tracer_2_extensions.vcxproj">
+      <Project>{237F03CF-8658-3C1C-968C-1C3DDA1101A3}</Project>
       <Name>vk_mini_path_tracer_2_extensions</Name>
     </ProjectReference>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\checkpoints\3_memory\vk_mini_path_tracer_3_memory.vcxproj">
-      <Project>{FC81D17F-3E1A-3F19-B455-B8CBF9039657}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\checkpoints\3_memory\vk_mini_path_tracer_3_memory.vcxproj">
+      <Project>{75B0BE79-BE8B-3129-B3D6-365CE7E9D076}</Project>
       <Name>vk_mini_path_tracer_3_memory</Name>
     </ProjectReference>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\checkpoints\4_commands\vk_mini_path_tracer_4_commands.vcxproj">
-      <Project>{66F53EF3-7CD6-32D8-A04B-5A606565ACCD}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\checkpoints\4_commands\vk_mini_path_tracer_4_commands.vcxproj">
+      <Project>{D823D888-7706-3EC1-8E5E-DAB78DC892B5}</Project>
       <Name>vk_mini_path_tracer_4_commands</Name>
     </ProjectReference>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\checkpoints\5_write_image\vk_mini_path_tracer_5_write_image.vcxproj">
-      <Project>{01E83B6D-443D-36B1-91B1-0B49DF4C314A}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\checkpoints\5_write_image\vk_mini_path_tracer_5_write_image.vcxproj">
+      <Project>{E17975BF-14C0-31D0-9F3F-6125CE4B4980}</Project>
       <Name>vk_mini_path_tracer_5_write_image</Name>
     </ProjectReference>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\checkpoints\6_compute_shader\vk_mini_path_tracer_6_compute_shader.vcxproj">
-      <Project>{A1FE85B5-42FB-32AA-9AAC-ABE09692164C}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\checkpoints\6_compute_shader\vk_mini_path_tracer_6_compute_shader.vcxproj">
+      <Project>{CC501363-EAB2-38F4-9695-D53520937AF9}</Project>
       <Name>vk_mini_path_tracer_6_compute_shader</Name>
     </ProjectReference>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\checkpoints\7_descriptors\vk_mini_path_tracer_7_descriptors.vcxproj">
-      <Project>{930CB883-3F58-3D35-AA35-8D9658A09780}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\checkpoints\7_descriptors\vk_mini_path_tracer_7_descriptors.vcxproj">
+      <Project>{1E427C3A-1FF7-3C83-BDCA-4F0C5E971870}</Project>
       <Name>vk_mini_path_tracer_7_descriptors</Name>
     </ProjectReference>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\checkpoints\8_ray_tracing\vk_mini_path_tracer_8_ray_tracing.vcxproj">
-      <Project>{EFD1C837-9217-37C5-A563-BCC7DD6167F7}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\checkpoints\8_ray_tracing\vk_mini_path_tracer_8_ray_tracing.vcxproj">
+      <Project>{EFA48DE2-C93F-3508-9971-D9518DFBB447}</Project>
       <Name>vk_mini_path_tracer_8_ray_tracing</Name>
     </ProjectReference>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\checkpoints\9_intersection\vk_mini_path_tracer_9_intersection.vcxproj">
-      <Project>{535B45ED-DA02-3817-82CF-FAC1DE2C6E5C}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\checkpoints\9_intersection\vk_mini_path_tracer_9_intersection.vcxproj">
+      <Project>{5C1D6367-B9C7-386F-9A04-A619201BD8D1}</Project>
       <Name>vk_mini_path_tracer_9_intersection</Name>
     </ProjectReference>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\_edit\vk_mini_path_tracer__edit.vcxproj">
-      <Project>{D5977F9A-6BC9-31BF-80BF-ABE5FE2B1995}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\_edit\vk_mini_path_tracer__edit.vcxproj">
+      <Project>{71AF1C1D-55B5-31F5-9E87-CC08F084F9A7}</Project>
       <Name>vk_mini_path_tracer__edit</Name>
     </ProjectReference>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\checkpoints\e10_materials\vk_mini_path_tracer_e10_materials.vcxproj">
-      <Project>{1C153053-CE85-32D6-8056-EE424F2AB15D}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\checkpoints\e10_materials\vk_mini_path_tracer_e10_materials.vcxproj">
+      <Project>{8DAA808C-903B-331F-BFE7-C027FB05FA2D}</Project>
       <Name>vk_mini_path_tracer_e10_materials</Name>
     </ProjectReference>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\checkpoints\e11_rt_pipeline_1\vk_mini_path_tracer_e11_rt_pipeline_1.vcxproj">
-      <Project>{1DF194DB-AF03-39C5-A44A-9A8F72A7B245}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\checkpoints\e11_rt_pipeline_1\vk_mini_path_tracer_e11_rt_pipeline_1.vcxproj">
+      <Project>{6C427E85-91AD-3F3A-BB3C-7725F9577BB5}</Project>
       <Name>vk_mini_path_tracer_e11_rt_pipeline_1</Name>
     </ProjectReference>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\checkpoints\e11_rt_pipeline_2\vk_mini_path_tracer_e11_rt_pipeline_2.vcxproj">
-      <Project>{65F6EA4F-35D6-3B6C-A8B6-51D8BD2F46AA}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\checkpoints\e11_rt_pipeline_2\vk_mini_path_tracer_e11_rt_pipeline_2.vcxproj">
+      <Project>{4B4DA4B9-2548-3446-825C-0FDE63E591EF}</Project>
       <Name>vk_mini_path_tracer_e11_rt_pipeline_2</Name>
     </ProjectReference>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\checkpoints\e11_rt_pipeline_3\vk_mini_path_tracer_e11_rt_pipeline_3.vcxproj">
-      <Project>{EF71CA84-0454-36D9-96B2-5F2EFCE81F58}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\checkpoints\e11_rt_pipeline_3\vk_mini_path_tracer_e11_rt_pipeline_3.vcxproj">
+      <Project>{4253EE56-4EFD-36D2-BAC7-C3BE8D85F528}</Project>
       <Name>vk_mini_path_tracer_e11_rt_pipeline_3</Name>
     </ProjectReference>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\checkpoints\e1_gaussian\vk_mini_path_tracer_e1_gaussian.vcxproj">
-      <Project>{522A6A29-FA2D-3C2A-B426-413BAEF23BB4}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\checkpoints\e1_gaussian\vk_mini_path_tracer_e1_gaussian.vcxproj">
+      <Project>{91900804-E7CF-34C2-BBEF-34E9DF6ACAB5}</Project>
       <Name>vk_mini_path_tracer_e1_gaussian</Name>
     </ProjectReference>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\checkpoints\e3_compaction\vk_mini_path_tracer_e3_compaction.vcxproj">
-      <Project>{A627B123-09B8-3FED-BBAE-30DEDD9CABB0}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\checkpoints\e3_compaction\vk_mini_path_tracer_e3_compaction.vcxproj">
+      <Project>{015213B5-408E-3BD8-9CDB-430AB1A64435}</Project>
       <Name>vk_mini_path_tracer_e3_compaction</Name>
     </ProjectReference>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\checkpoints\e4_include\vk_mini_path_tracer_e4_include.vcxproj">
-      <Project>{11F58886-848E-352D-8EF5-01EE9E2664F8}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\checkpoints\e4_include\vk_mini_path_tracer_e4_include.vcxproj">
+      <Project>{5C9EA7DF-2D90-337D-B9BB-858483176956}</Project>
       <Name>vk_mini_path_tracer_e4_include</Name>
     </ProjectReference>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\checkpoints\e5_push_constants\vk_mini_path_tracer_e5_push_constants.vcxproj">
-      <Project>{BA2E9321-DE67-32D5-BFFA-693F757BD82F}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\checkpoints\e5_push_constants\vk_mini_path_tracer_e5_push_constants.vcxproj">
+      <Project>{298D0378-9D17-3E5B-8461-2D4562AFD9E6}</Project>
       <Name>vk_mini_path_tracer_e5_push_constants</Name>
     </ProjectReference>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\checkpoints\e6_more_samples\vk_mini_path_tracer_e6_more_samples.vcxproj">
-      <Project>{BC8174B5-3121-397C-8594-1998A579F30A}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\checkpoints\e6_more_samples\vk_mini_path_tracer_e6_more_samples.vcxproj">
+      <Project>{EBC0CC1F-4529-370F-B0EC-17E8009DB25C}</Project>
       <Name>vk_mini_path_tracer_e6_more_samples</Name>
     </ProjectReference>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\checkpoints\e7_image\vk_mini_path_tracer_e7_image.vcxproj">
-      <Project>{C69A2BFD-1D68-38EE-8C6A-0BB07C62057E}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\checkpoints\e7_image\vk_mini_path_tracer_e7_image.vcxproj">
+      <Project>{FB7CAC25-62E9-3658-ADD0-384E37C51A8E}</Project>
       <Name>vk_mini_path_tracer_e7_image</Name>
     </ProjectReference>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\checkpoints\e8_debug_names\vk_mini_path_tracer_e8_debug_names.vcxproj">
-      <Project>{A246678E-6E54-3EFE-8383-B1D47F017620}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\checkpoints\e8_debug_names\vk_mini_path_tracer_e8_debug_names.vcxproj">
+      <Project>{F67EEED3-09E6-31B2-A836-7848E42E8100}</Project>
       <Name>vk_mini_path_tracer_e8_debug_names</Name>
     </ProjectReference>
-    <ProjectReference Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\cmake_build\checkpoints\e9_instances\vk_mini_path_tracer_e9_instances.vcxproj">
-      <Project>{32AB4A87-6D66-3D25-B71D-C9A54410267A}</Project>
+    <ProjectReference Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\cmake_build\checkpoints\e9_instances\vk_mini_path_tracer_e9_instances.vcxproj">
+      <Project>{E49B89EF-BD3D-3804-BEEA-E1A130A803E8}</Project>
       <Name>vk_mini_path_tracer_e9_instances</Name>
     </ProjectReference>
   </ItemGroup>

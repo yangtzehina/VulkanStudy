@@ -1,6 +1,6 @@
 # CMake generation dependency list for this directory.
 E:/CommonSoftware/Cmake/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake
 E:/CommonSoftware/Cmake/share/cmake-3.19/Modules/FindPackageMessage.cmake
-G:/UnityGraphics/vulkan/shared_sources/CMakeLists.txt
-G:/UnityGraphics/vulkan/shared_sources/cmake/FindVulkanSDK.cmake
-G:/UnityGraphics/vulkan/shared_sources/cmake/FindZLIB.cmake
+G:/UnityGraphics/vulkan/VulkanStudy/shared_sources/CMakeLists.txt
+G:/UnityGraphics/vulkan/VulkanStudy/shared_sources/cmake/FindVulkanSDK.cmake
+G:/UnityGraphics/vulkan/VulkanStudy/shared_sources/cmake/FindZLIB.cmake

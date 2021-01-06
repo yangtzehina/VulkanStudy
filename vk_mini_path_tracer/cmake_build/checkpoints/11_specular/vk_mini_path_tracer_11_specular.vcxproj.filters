@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\checkpoints\11_specular\main.cpp">
+    <ClCompile Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\checkpoints\11_specular\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\checkpoints\11_specular\shaders\raytrace.comp.glsl">
+    <CustomBuild Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\checkpoints\11_specular\shaders\raytrace.comp.glsl">
       <Filter>Shader Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="G:\UnityGraphics\vulkan\vk_mini_path_tracer\checkpoints\11_specular\CMakeLists.txt" />
+    <CustomBuild Include="G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\checkpoints\11_specular\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Shader Files">
-      <UniqueIdentifier>{172EA786-C97E-3A1E-B61E-E8CC61303D92}</UniqueIdentifier>
+      <UniqueIdentifier>{FA05FB40-0336-3D83-8790-739951BE20C6}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{96BF58D7-28C9-39ED-9541-0270AE2A994D}</UniqueIdentifier>
+      <UniqueIdentifier>{3C7A3A22-EEAF-333E-94D4-A11CA3BA57CB}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
