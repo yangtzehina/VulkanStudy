@@ -25,7 +25,7 @@ CMAKE_AR:FILEPATH=E:/CommonSoftware/Vs2019/VC/Tools/MSVC/14.28.29333/bin/Hostx64
 
 //Choose the type of build, options are: Debug Release RelWithDebInfo
 // MinSizeRel.
-CMAKE_BUILD_TYPE:STRING=Release
+CMAKE_BUILD_TYPE:STRING=Debug
 
 //Semicolon separated list of supported configuration types, only
 // supports Debug, Release, MinSizeRel, and RelWithDebInfo, anything
