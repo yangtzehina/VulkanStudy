@@ -1,0 +1,6 @@
+﻿  Generating ../../../checkpoints/e4_include/shaders/raytrace.comp.glsl.spv
+  C:/VulkanSDK/1.2.162.0/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/raytrace.comp.glsl.spv -g G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/checkpoints/e4_include/shaders/raytrace.comp.glsl
+  G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/checkpoints/e4_include/shaders/raytrace.comp.glsl
+  Building Custom Rule G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/checkpoints/e4_include/CMakeLists.txt
+  main.cpp
+  vk_mini_path_tracer_e4_include.vcxproj -> G:\UnityGraphics\vulkan\VulkanStudy\bin_x64\Debug\vk_mini_path_tracer_e4_include.exe

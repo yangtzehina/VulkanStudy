@@ -1,0 +1,26 @@
+^G:\UNITYGRAPHICS\VULKAN\VULKANSTUDY\VK_MINI_PATH_TRACER\CHECKPOINTS\8_RAY_TRACING\SHADERS\RAYTRACE.COMP.GLSL
+setlocal
+cd G:\UnityGraphics\vulkan\VulkanStudy\vk_mini_path_tracer\checkpoints\8_ray_tracing
+if %errorlevel% neq 0 goto :cmEnd
+G:
+if %errorlevel% neq 0 goto :cmEnd
+echo C:/VulkanSDK/1.2.162.0/bin/glslangValidator.exe --target-env vulkan1.2 -o shaders/raytrace.comp.glsl.spv -g G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/checkpoints/8_ray_tracing/shaders/raytrace.comp.glsl
+if %errorlevel% neq 0 goto :cmEnd
+C:\VulkanSDK\1.2.162.0\bin\glslangValidator.exe --target-env vulkan1.2 -o shaders/raytrace.comp.glsl.spv -g G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/checkpoints/8_ray_tracing/shaders/raytrace.comp.glsl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^G:\UNITYGRAPHICS\VULKAN\VULKANSTUDY\VK_MINI_PATH_TRACER\CHECKPOINTS\8_RAY_TRACING\CMAKELISTS.TXT
+setlocal
+E:\CommonSoftware\Cmake\bin\cmake.exe -SG:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer -BG:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build --check-stamp-file G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/8_ray_tracing/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

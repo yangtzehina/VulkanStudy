@@ -33,35 +33,138 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
+  # Include the install script for the subdirectory.
   include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/shared_sources/cmake_install.cmake")
-  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/_edit/cmake_install.cmake")
-  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/1_hello_vulkan/cmake_install.cmake")
-  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/2_extensions/cmake_install.cmake")
-  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/3_memory/cmake_install.cmake")
-  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/4_commands/cmake_install.cmake")
-  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/5_write_image/cmake_install.cmake")
-  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/6_compute_shader/cmake_install.cmake")
-  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/7_descriptors/cmake_install.cmake")
-  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/8_ray_tracing/cmake_install.cmake")
-  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/9_intersection/cmake_install.cmake")
-  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/10_mesh_data/cmake_install.cmake")
-  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/11_specular/cmake_install.cmake")
-  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/12_antialiasing/cmake_install.cmake")
-  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/vk_mini_path_tracer/cmake_install.cmake")
-  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/e1_gaussian/cmake_install.cmake")
-  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/e3_compaction/cmake_install.cmake")
-  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/e4_include/cmake_install.cmake")
-  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/e5_push_constants/cmake_install.cmake")
-  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/e6_more_samples/cmake_install.cmake")
-  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/e7_image/cmake_install.cmake")
-  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/e8_debug_names/cmake_install.cmake")
-  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/e9_instances/cmake_install.cmake")
-  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/e10_materials/cmake_install.cmake")
-  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/e11_rt_pipeline_1/cmake_install.cmake")
-  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/e11_rt_pipeline_2/cmake_install.cmake")
-  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/e11_rt_pipeline_3/cmake_install.cmake")
+endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/_edit/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/1_hello_vulkan/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/2_extensions/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/3_memory/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/4_commands/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/5_write_image/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/6_compute_shader/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/7_descriptors/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/8_ray_tracing/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/9_intersection/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/10_mesh_data/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/11_specular/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/12_antialiasing/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/vk_mini_path_tracer/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/e1_gaussian/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/e3_compaction/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/e4_include/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/e5_push_constants/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/e6_more_samples/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/e7_image/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/e8_debug_names/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/e9_instances/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/e10_materials/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/e11_rt_pipeline_1/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/e11_rt_pipeline_2/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/checkpoints/e11_rt_pipeline_3/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

@@ -1,0 +1,10 @@
+^G:\UNITYGRAPHICS\VULKAN\VULKANSTUDY\VK_MINI_PATH_TRACER\CMAKE_BUILD\CMAKEFILES\3F4C044347740F66E0A60A22E2BC56C5\GENERATE.STAMP.RULE
+setlocal
+E:\CommonSoftware\Cmake\bin\cmake.exe -SG:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer -BG:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/vk_mini_path_tracer.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

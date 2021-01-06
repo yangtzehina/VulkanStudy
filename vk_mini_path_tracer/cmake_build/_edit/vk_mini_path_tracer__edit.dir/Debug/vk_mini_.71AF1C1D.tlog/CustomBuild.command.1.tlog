@@ -1,0 +1,10 @@
+^G:\UNITYGRAPHICS\VULKAN\VULKANSTUDY\VK_MINI_PATH_TRACER\_EDIT\CMAKELISTS.TXT
+setlocal
+E:\CommonSoftware\Cmake\bin\cmake.exe -SG:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer -BG:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build --check-stamp-file G:/UnityGraphics/vulkan/VulkanStudy/vk_mini_path_tracer/cmake_build/_edit/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

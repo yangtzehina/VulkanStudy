@@ -1,0 +1,37 @@
+﻿  Building Custom Rule G:/UnityGraphics/vulkan/VulkanStudy/shared_sources/CMakeLists.txt
+  cmake_pch.cxx
+  appwindowprofiler.cpp
+  bitarray.cpp
+  cameramanipulator.cpp
+  filemapping.cpp
+  gltfscene.cpp
+  nvprint.cpp
+  parametertools.cpp
+  profiler.cpp
+  shaderfilemanager.cpp
+  noise1234.cpp
+  cadscenefile.cpp
+  cgltf.cpp
+  nv_dds.cpp
+  nvpwindow.cpp
+  nvpsystem.cpp
+  nvpsystem_win32.cpp
+  allocator_dma_vkgl.cpp
+  appwindowprofiler_vk.cpp
+  commands_vk.cpp
+  context_vk.cpp
+  debug_util_vk.cpp
+  descriptorsets_vk.cpp
+  error_vk.cpp
+  extensions_vk.cpp
+  gizmos_vk.cpp
+  images_vk.cpp
+  memorymanagement_vk.cpp
+  memorymanagement_vkgl.cpp
+  pipeline_vk.cpp
+  profiler_vk.cpp
+  renderpasses_vk.cpp
+  samplers_vk.cpp
+  shadermodulemanager_vk.cpp
+  swapchain_vk.cpp
+  shared_sources.vcxproj -> G:\UnityGraphics\vulkan\VulkanStudy\bin_x64\Debug\shared_sources_vk.lib
